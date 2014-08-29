@@ -23,7 +23,7 @@ public class BRMSUtil {
 		kContainer = kServices.newKieContainer( releaseId );
 
 		KieScanner kScanner = kServices.newKieScanner( kContainer );
-
+	
 
 		// Start the KieScanner polling the maven repository every 10 seconds
 
